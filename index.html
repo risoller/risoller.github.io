@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>risoller</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <style>
+       html {
+        scroll-behavior: smooth;
+       } 
+    </style>
+  </head>
+  <body>
+    <div class="container mx-auto p-5">
+      <div class="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base">
+        <div class="mt-2">
+          <a href="#home" class="text-gray-600 hover:text-purple-600 p-4 px-3 sm:px-4 ">Home</a>
+          <a href="#product" class="text-gray-600 hover:text-purple-600 p-4 px-3 sm:px-4">Product</a>
+          <a href="#contact" class="text-gray-600 hover:text-purple-600 p-4 px-3 sm:px-4">Contact</a>
+          </a>
+        </div>
+      </div>
+      <!-- Main Navigation -->
+
+      <div id="home" class="md:flex md:flex-row mt-16">
+        <div class="md:w-2/5 flex flex-col justify-center items-center">
+          <h2 class="font-serif text-5xl text-gray-600 mb-4 text-center md:self-start md:text-left">RISOLER</h2>
+          <p class="uppercase text-gray-600 tracking-wide text-center md:self-start md:text-left">Tiap gigitan Risoller ini akan memberikan pengalaman yang tak terlupakan</p>
+          <a href="#product" class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-4 px-8 text-gray-50 uppercase text-xl md:self-start my-5">beli sekarang</a>
+        </div>
+        <div class="md:w-3/5 mt-10">
+          <img src="images/2.png" class="w-full rounded-xl shadow-lg" />
+        </div>
+      </div>
+      <!-- Hero sectioin -->
+
+      <div class="my-20" id="product">
+        <div class="my-5">
+          <h2 class="text-3xl text-center">Varian Rasa</h2>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+          <div class="shadow-lg rounded-lg">
+            <a href="#">
+              <img src="./images/1.png" class="rounded-tl-lg rounded-tr-lg" />
+            </a>
+            <div class="p-5">
+              <h3><a href="#" class="font-semibold text-lg">Rasa Pedas</a></h3>
+              <div class="flex flex-row my-3">
+                <a class="border-gray-300 border-2 text-gray-400 
+              rounded-md px-2 py-1 mr-2 text-xs" href="#product">4 BUAH RISOLLER</a>
+              </div>
+              <div class="mb-2">
+                <p class="text-base text-slate-600">Sensasi Pedas yang Meledak-ledak di Setiap Sajian Risoller Kami</p>
+              </div>
+              <div class="flex flex-col xl:flex-row justify-between">
+                <a class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-4 my-2 text-sm text-white hover:bg-pink-600 hover:from-pink-600 hover:to-pink-600 flex flex-row justify-center" href="https://wa.link/3az4qj">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                  beli sekarang
+                </a>
+                </a>
+              </div>
+            </div>
+          </div>
+      <!-- Men's Collection Section -->
+
+      <!-- coundown start -->
+      <h2 class="uppercase text-center text-lg font-semibold -mb-7">Pre order </h2>
+      <h2 class="uppercase text-center -mb-5 text-lg font-semibold">tersedia dalam waktu</h2>
+        <div class="countdown flex flex-wrap gap-2 items-center 
+        justify-center">
+         <div> <div id="hari" class="font-semibold text-2xl py-4 px-7 
+          bg-gradient-to-r from-red-600 to-pink-500  text-white rounded-lg hover:bg-pink-600 hover:from-pink-600 hover:to-pink-600"></div>
+          <p class="font-semibold text-center uppercase mt-2">hari</p>
+        </div>
+
+        <div> <div id="jam" class="font-semibold text-2xl py-4 px-7 
+          bg-gradient-to-r from-red-600 to-pink-500  text-white rounded-lg 
+        hover:bg-pink-600 hover:from-pink-600 hover:to-pink-600"></div>
+          <p class="font-semibold text-center uppercase mt-2">jam</p>
+        </div>
+
+        <div> <div id="menit" class="font-semibold text-2xl py-4 px-7 
+          bg-gradient-to-r from-red-600 to-pink-500  text-white rounded-lg 
+        hover:bg-pink-600 hover:from-pink-600 hover:to-pink-600"></div>
+          <p class="font-semibold text-center uppercase mt-2">menit</p>
+        </div>
+
+        <div> <div id="detik" class="font-semibold text-2xl py-4 px-7 
+          bg-gradient-to-r from-red-600 to-pink-500  text-white rounded-lg 
+        hover:bg-pink-600 hover:from-pink-600 hover:to-pink-600"></div>
+          <p class="font-semibold text-center uppercase mt-2">detik</p>
+        </div>
+        </div>
+        <!-- coundown end -->
+
+      <div class="rounded-lg shadow-lg my-10 flex flex-row" id="contact">
+        <div class="lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:from-black lg:via-purple-900 lg:to-transparent rounded-lg text-gray-100 p-12">
+          <div class="lg:w-1/2">
+            <h3 class="text-2xl font-extrabold mb-4">Hubungi Kami</h3>
+            <p class="mb-8 leading-relaxed">Kami sangat menghargai masukan, pesanan, dan pertanyaan Anda. Untuk memesan produk kami, memberikan umpan balik, atau berkomunikasi dengan tim kami, silakan hubungi Kami. Kami siap melayani Anda dengan sepenuh hati</p>
+            <div class="justify-center items-center">
+              <a href="https://wa.link/eojgnm" class="bg-red-600 py-3 px-16 rounded-lg w-full">Hubungi Kami</a>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden">
+          <img src="./images/subscribe-banner.png" class="h-96" />
+        </div>
+      </div>
+      <!-- Newsletter Section -->
+
+      <h2 class="font-semibold text-center -mb-10">dibuat oleh : </h2>
+      <div id="member" class="flex flex-wrap gap-3 text-center justify-center">
+        <h2 class="text-base font-semibold">subky</h2>
+        <h2 class="text-base font-semibold">nuryanah</h2>
+        <h2 class="text-base font-semibold">nanda</h2>
+        <h2 class="text-base font-semibold">khairunisa</h2>
+        <h2 class="text-base font-semibold">linggar</h2>
+      </div>
+
+      <div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center py-5 text-sm -mt-10">
+        <p>&copy; Copyright Reserved 2023</p>
+      </div>
+      <!-- Footer Section -->
+    </div>
+
+    <script>
+      
+      let countDate = new Date('nov 30 2023 13:00:00').getTime();
+
+      function newYear() {
+        let now = new Date().getTime();
+        gap = countDate - now;
+
+        let detik = 1000;
+        let menit = detik * 60;
+        let jam = menit * 60;
+        let hari = jam * 24;
+
+        let h = Math.floor( gap / (hari));
+        let j = Math.floor((gap % (hari)) / (jam));
+        let m = Math.floor((gap % (jam)) / (menit));
+        let d = Math.floor((gap % (menit)) / (detik));
+
+        document.getElementById('hari').innerText = h;
+        document.getElementById('jam').innerText = j;
+        document.getElementById('menit').innerText = m;
+        document.getElementById('detik').innerText = d;
+      }
+
+      setInterval( function() {
+        newYear();
+      }, 1000);
+    </script>
+  </body>
+</html>
